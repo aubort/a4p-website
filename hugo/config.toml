@@ -8,6 +8,7 @@ googleAnalytics = ""
 
 [params]
     author = "pascal aubort"
+    primaryColor = "mdl-color--blue-grey-900"
 
     [params.navigation]
         categories = ['a', 'b', 'c']

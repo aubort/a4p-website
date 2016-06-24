@@ -1,15 +1,22 @@
-.demo-layout-transparent{
-  background: url('../img/transparent.jpg') center / cover;
-  max-height: 250px;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
+/*.mdl-layout__header{*/
+/*  background: url('../img/transparent.jpg') center / cover;*/
+/*  max-height: 250px;*/
+/*}*/
+
+/*.demo-layout-transparent .mdl-layout__header,*/
+/*.demo-layout-transparent .mdl-layout__drawer-button {*/
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
-  color: white;
-}
+/*  color: white;*/
+/*}*/
+
+/*.mdl-layout__header{*/
+/*  background-color: #2E2E2E;*/
+/*}*/
 
 .mdl-layout__content{
   position:relative;
   display:block;
+  clear:both;
 }
+

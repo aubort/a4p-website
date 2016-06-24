@@ -5,3 +5,10 @@ theme="a4p"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
+
+[params]
+    author = "pascal aubort"
+
+    [params.navigation]
+        categories = ['a', 'b', 'c']
+        

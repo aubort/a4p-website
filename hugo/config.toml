@@ -11,5 +11,5 @@ googleAnalytics = ""
     primaryColor = "mdl-color--blue-grey-900"
 
     [params.navigation]
-        categories = ['a', 'b', 'c']
+        categories = ['About', 'Partners', 'Case Studies', 'Contact us']
         

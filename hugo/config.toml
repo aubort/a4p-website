@@ -1,7 +1,7 @@
 baseurl = "http://a4p-website-aubort.c9users.io/"
 languageCode = "en-us"
 title = "A4P - All for Projects"
-theme="a4p"
+
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""

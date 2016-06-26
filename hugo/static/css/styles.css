@@ -21,15 +21,27 @@
 /*}*/
 
 .a4p-slogan{
-  padding-top: px;
   font-size: 500;
-  font-style: light;
+  font-weight: 700;
 }
 
 .a4p-logo{
   padding-top:50px;
   width:100%;
   height: 160px;
+}
+
+section {
+  padding-top:30px;
+  border-bottom: 1px;
+  width:100%;
+  min-height:150px;
+}
+
+.section__titles{
+  font-family: Lora,Helvetica,Arial,sans-serif;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .home-section{

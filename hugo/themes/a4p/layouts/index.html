@@ -7,14 +7,8 @@
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			
 		{{ partial "header.html"  . }}
-		<!--{{ partial "about.html"    . }}-->
 		<main class="mdl-layout__content">
-		    <div>Content</div>
-		    <ul>
-		    {{ range .Site.Params.navigation.categories }}
-			    <li>{{ . }}</li>
-			{{ end }}
-			</ul>
+			{{ partial "home.html"    . }}
 		</main>
 		<!--{{ partial "clients.html" . }}-->
 		<!--{{ partial "contact.html" . }}-->

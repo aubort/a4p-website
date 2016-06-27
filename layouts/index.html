@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			{{ partial "header.html"  . }}
+			<main class="mdl-layout__content">
+				<a id="home"></a>
+				{{ partial "home.html"    . }}
+				<a id="about"></a>
+				{{ partial "about.html"    . }}
+				<a id="partners"></a>
+				{{ partial "partners.html"    . }}
+			</main>
+		</div>
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+		<!--<script src="{{ .Site.BaseURL }}js/functions.js"></script>-->
+	</body>
+</html>

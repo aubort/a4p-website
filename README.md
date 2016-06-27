@@ -1,1 +1,0 @@
-Run: hugo server --baseURL=http://a4p-website-aubort.c9users.io/ --bind=0.0.0.0 --port=8080

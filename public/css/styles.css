@@ -44,7 +44,7 @@ section {
 }
 
 .home-section{
-  background: url('./img/home-transparent.jpg') center / cover;
+  background: url('img/home-transparent.jpg') center / cover;
   height: 350px;
   background-size: cover;
 }

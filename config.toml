@@ -1,4 +1,4 @@
-baseurl = "http://a4p-website-aubort.c9users.io/"
+baseurl = "http://aubort.github.io/a4p-website"
 languageCode = "en-us"
 title = "A4P - All for Projects"
 contentdir = "content"

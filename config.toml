@@ -11,7 +11,7 @@ publishdir = "public"
     author = "pascal aubort"
     primaryColor = "mdl-color--blue-grey-900"
     # Enter your tracking code to enable Google Analytics
-    googleAnalytics = ""
+    googleAnalytics = "UA-73219735-1"
     
     [params.navigation]
         categories = ['About us', 'Clients & Partners', 'References', 'Contacts']

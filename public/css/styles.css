@@ -43,6 +43,14 @@
   margin-bottom: 20px;
 }
 
+.section-partners img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
 dark-section {
   
 }
@@ -70,4 +78,10 @@ dark-section {
   z-index: -1;   
 }
 
+.case-studies-card.mdl-card {
+  width: 400px;
+}
 
+.blog-section {
+  padding-top: 50px;
+}

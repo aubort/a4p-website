@@ -37,6 +37,7 @@
   min-height:150px;
   margin-left: auto;
   margin-right:auto;
+  margin-bottom: 30px;
 }
 
 .section-title{
@@ -78,4 +79,10 @@ dark-section {
   z-index: -1;   
 }
 
+.case-studies-card.mdl-card {
+  width: 400px;
+}
 
+.blog-section {
+  padding-top: 50px;
+}

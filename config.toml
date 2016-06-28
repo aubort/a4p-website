@@ -5,13 +5,14 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+
 
 [params]
     author = "pascal aubort"
     primaryColor = "mdl-color--blue-grey-900"
-
+    # Enter your tracking code to enable Google Analytics
+    googleAnalytics = ""
+    
     [params.navigation]
         categories = ['Ueber uns', 'Partners', 'Case Studies', 'Contact us']
 

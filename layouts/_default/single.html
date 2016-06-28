@@ -6,14 +6,15 @@
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 			{{ partial "header.html"  . }}
 			<main class="mdl-layout__content">
-				<section class="section mdl-typography--text-center blog-section">
-                    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast section-title">
-                        {{ .Title }}
-                    </div>
-                    <p class="mdl-typography--font-light mdl-typography--text-justify">
-                        {{ .Content }}
-                    </p>
-                </section>
+				{{ "<!-- About section -->" | safeHTML }}
+				<div class="blog-section mdl-typography--text-left">
+    				<div class="mdl-typography--font-light mdl-typography--display-1-color-contrast section-title">
+       					 {{ .Title }}
+    				</div>
+				    <p class="mdl-typography--font-light">
+				        {{ .Content  }}
+				    </p>
+				</div>
 			</main>
 		</div>
 		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->

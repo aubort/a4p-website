@@ -31,12 +31,17 @@
   height: 160px;
 }
 
-section {
-  padding-top:30px;
-  width:100%;
+.section {
+  padding-top:50px;
+  max-width:800px;
   min-height:150px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
+dark-section {
+  
+}
 .section__titles{
   font-family: Lora,Helvetica,Arial,sans-serif;
   font-size: 30px;

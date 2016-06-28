@@ -18,7 +18,7 @@ publishdir = "public"
 
     [params.content.about]
         title = 'About us'
-        content = "A4P.ch GmbH steht für Projektmanagement im Data Center Bereich für Kommerzielle und Non Profit Organisationen (NPO).Das riesige Angebot von Data Center Lösungen stellt ausserordentliche Anforderungen an die Betreiber und der Projektorganisation.  Wir bieten unseren Kunden die flexible Projektorganisation (PMO) mit eigenenwickelten Mitteln und Tools zur effektiven Erreichung Ihrer Ziele. Auf Grund Jahrzehnte Erfahrung im Bereich Data Center sind wir Ihr Partner für Ihr nächstes Projekt. "
+        content = ""
     
     [params.content.casestudies]
         title = 'References'

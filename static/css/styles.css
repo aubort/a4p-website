@@ -85,7 +85,8 @@ dark-section {
 
 .blog-section {
   padding-top: 50px;
-  max-width: 700px;
+  max-width:90%;
+  width:700px;
   text-align: center;
   margin: auto;
 }

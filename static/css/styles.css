@@ -80,7 +80,7 @@ dark-section {
 }
 
 .case-studies-card.mdl-card {
-  width: 400px;
+  max-width: 400px;
 }
 
 .blog-section {

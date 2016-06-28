@@ -6,18 +6,28 @@
     <description>Recent content on A4P - All for Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jun 2016 07:44:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jun 2016 12:06:23 +0000</lastBuildDate>
     <atom:link href="http://a4p-website-aubort.c9users.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about</title>
-      <link>http://a4p-website-aubort.c9users.io/about/</link>
-      <pubDate>Fri, 24 Jun 2016 07:44:19 +0000</pubDate>
+      <title>case klinik basel</title>
+      <link>http://a4p-website-aubort.c9users.io/case-klinik-basel/</link>
+      <pubDate>Tue, 28 Jun 2016 12:06:23 +0000</pubDate>
       
-      <guid>http://a4p-website-aubort.c9users.io/about/</guid>
-      <description>&lt;p&gt;Some content here laksjd alskjd
-aslkdj asdlkja slkj asdlkjaaslkja sdlkja sdlkj
-lkajs dlkajs dlkajs dlkajs dlkajs dlkajs dlkajs&lt;/p&gt;
+      <guid>http://a4p-website-aubort.c9users.io/case-klinik-basel/</guid>
+      <description>
+
+&lt;h1 id=&#34;a4p-ch-dc-design&#34;&gt;A4P.ch DC Design&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Modular DC (ModDC)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;48 Rack&lt;/li&gt;
+&lt;li&gt;Max load per Rack 22,0 kW&lt;/li&gt;
+&lt;li&gt;Avg load per Rack 10,5 kW&lt;/li&gt;
+&lt;li&gt;Cooling N+1 / Modulare USV&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;v-bla&#34;&gt;v bla&lt;/h1&gt;
 </description>
     </item>
     

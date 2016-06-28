@@ -14,4 +14,6 @@ googleAnalytics = ""
 
     [params.navigation]
         categories = ['About', 'Partners', 'Case Studies', 'Contact us']
-        
+
+    [params.content.about]
+        title = 'Ueber un'

@@ -14,14 +14,14 @@ publishdir = "public"
     googleAnalytics = ""
     
     [params.navigation]
-        categories = ['Ueber uns', 'Partners', 'Case Studies', 'Contact us']
+        categories = ['About us', 'Clients & Partners', 'References', 'Contacts']
 
     [params.content.about]
-        title = 'Über uns'
+        title = 'About us'
         content = "A4P.ch GmbH steht für Projektmanagement im Data Center Bereich für Kommerzielle und Non Profit Organisationen (NPO).Das riesige Angebot von Data Center Lösungen stellt ausserordentliche Anforderungen an die Betreiber und der Projektorganisation.  Wir bieten unseren Kunden die flexible Projektorganisation (PMO) mit eigenenwickelten Mitteln und Tools zur effektiven Erreichung Ihrer Ziele. Auf Grund Jahrzehnte Erfahrung im Bereich Data Center sind wir Ihr Partner für Ihr nächstes Projekt. "
     
     [params.content.casestudies]
-        title = 'Case Studies'
+        title = 'References'
         content = "asd"
         
     

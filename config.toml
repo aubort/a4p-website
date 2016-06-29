@@ -18,10 +18,7 @@ publishdir = "public"
 
     [params.content.about]
         title = 'About us'
-        content = ""
-    
+
     [params.content.casestudies]
         title = 'References'
-        content = "asd"
-        
     

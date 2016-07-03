@@ -16,5 +16,5 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
-git subtree push --prefix=public git@github.com:aubort/a4p-website.git gh-pages
+git push prod master
+git subtree push --prefix=public https://github.com/A4Pch/a4p-www.git gh-pages

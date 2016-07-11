@@ -1,11 +1,12 @@
 +++
 date = "2016-06-28T12:06:23Z"
 title = "Klinik in Basel"
+cover = "/img/casestudies/klinik/case-klinik-1.png"
 +++
 
 **A4P.ch DC Design**
 
-![](/img/showcases/case-klinik-1.png)
+![](/img/casestudies/klinik/case-klinik-1.png)
 
 + Modular DC (ModDC)  
 + 48 Rack 
@@ -35,4 +36,4 @@ Abschlussphase
 + Betriebshandbuch
 
 
-![](/img/showcases/case-klinik-2.png)
+![](/img/casestudies/klinik/case-klinik-2.png)

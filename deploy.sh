@@ -11,6 +11,9 @@ version=
 # Build Drafts flag. By default empty, so that drafts are not included
 build_drafts=
 
+# The default commit message when deploying a new release
+message="rebuilding site `date`"
+
 # gcloud deploy command
 command="gcloud preview app deploy"
 
@@ -22,6 +25,8 @@ display_help() {
     echo
     echo "   -v, --version              Set the App Version in the appengine console. If no version is given, App Engine will automatically create a random version"
     echo "                              Usage: --version=staging"
+    echo "   -m, --message              Set a custom commit message for the deployment. If no argument is given, the current date is used as commit message"
+    echo "                              Usage: --message=\"Building new site Version 1.0\""
     echo "   --promote                  By default the script does not promote new deployment. To route traffic to the newly deployed version add the --promote flag"
     echo "                              A version can also be promoted after deployment via the App Engine console (https://console.cloud.google.com/appengine)"
     echo "   --buildDrafts              Tells Hugo to build drafts. Default is false. "
@@ -45,6 +50,9 @@ do
 case $i in
     -v=*|--version=*)
     version="--version=${i#*=}"
+    ;;
+    -m=*|--message=*)
+    message="${i#*=}"
     ;;
     --promote)
     promote="--promote"
@@ -72,11 +80,7 @@ hugo $build_drafts
 git add -A
 
 # Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
- then msg="$1"
-fi
-git commit -m "$msg"
+git commit -m "$message"
 
 # Push source and build repos.
 git push origin master

@@ -1,5 +1,5 @@
 baseurl = "https://a4p.ch/"
-languageCode = "en-us"
+languageCode = "de"
 title = "A4P - All for Projects"
 contentdir = "content"
 layoutdir = "layouts"
@@ -16,8 +16,12 @@ publishdir = "public"
     [params.navigation]
         categories = ['About us', 'Clients & Partners', 'References', 'Contacts']
 
+    [params.content.partners]
+        title = 'Clients & Partners'
+
     [params.content.about]
         title = 'About us'
+        url = ''
 
     [params.content.casestudies]
         title = 'References'

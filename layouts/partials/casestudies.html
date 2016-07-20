@@ -1,25 +1,25 @@
 {{ "<!-- Case Studies section -->" | safeHTML }}
+<a id="references"></a>
 <section class="section casestudies-section mdl-typography--text-center">
     <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast section-title">
-        {{ .Site.Params.content.casestudies.title  }}
+        {{ .Site.Params.content.casestudies.title }}
     </div>
-<div class="mdl-grid fixed-width">
- {{ range .Site.Pages.ByDate.Reverse }} 
-<div class="mdl-cell mdl-cell--6-col">
-    <div class="mdl-card mdl-shadow--4dp case-studies-card">
-        <div class="mdl-card__media">
-            <img class="article-image" src="{{ .Params.cover }}" border="0" alt="">
+    <div class="mdl-grid fixed-width">
+        {{ range .Site.Pages.ByDate.Reverse }}
+        <div class="mdl-cell mdl-cell--6-col">
+            <div class="mdl-card mdl-shadow--4dp case-studies-card">
+                <div class="mdl-card__media">
+                    <img class="article-image" src="{{ .Params.cover }}" border="0" alt="">
+                </div>
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">{{ .Title }}</h2>
+                </div>
+                <!--<div class="mdl-card__supporting-text"></div>-->
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ .RelPermalink }}">Read more</a>
+                </div>
+            </div>
         </div>
-        <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">{{ .Title }}</h2>
-        </div>
-        <!--<div class="mdl-card__supporting-text"></div>-->
-        <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ .RelPermalink }}">Read more</a>
-        </div>
+        {{ end }}
     </div>
-</div>
-{{ end }}
-
-</div>
 </section>

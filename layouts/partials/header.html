@@ -7,18 +7,17 @@
     </span>
     <div class="mdl-layout-spacer"></div>
     <nav class="mdl-navigation mdl-layout--large-screen-only">
-      {{ range .Site.Params.navigation.categories }}
-			    <a class="mdl-navigation__link" href="/#{{ . | urlize }}">{{ . }}</a>
-			{{ end }}
+      {{ range .Site.Params.sections }}
+        <a class="mdl-navigation__link" href="/#{{ .prettyName | urlize }}">{{ .prettyName }}</a> 
+      {{ end }}
     </nav>
   </div>
 </header>
 <div class="mdl-layout__drawer mdl-layout--small-screen-only {{ .Site.Params.primaryColor }}">
   <!--<span class="mdl-layout__title">Material Design Lite</span>-->
   <nav class="mdl-navigation">
-    {{ range .Site.Params.navigation.categories }}
-			    <a class="mdl-navigation__link" href="/#{{ . | urlize }}">{{ . }}</a>
-		{{ end }}
+    {{ range .Site.Params.sections }}
+        <a class="mdl-navigation__link" href="/#{{ .prettyName | urlize }}">{{ .prettyName }}</a> 
+    {{ end }}
   </nav>
 </div>
-  

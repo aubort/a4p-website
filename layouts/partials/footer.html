@@ -1,9 +1,12 @@
+{{ $sectionIndex :=  3 }}
+{{ $section := index .Site.Params.sections $sectionIndex }}
+
 {{ "<!-- footer -->" | safeHTML }}
-<a id="contacts"></a>
+<a id="{{ $section.prettyName | urlize }}"></a>
 <footer class="mdl-mega-footer {{ .Site.Params.primaryColor }}">
   <div class="mdl-mega-footer__top-section">
     <div class="mdl-mega-footer__left-section">
-      <h1 class="mdl-mega-footer__heading">Contacts</h1>
+      <h1 class="mdl-mega-footer__heading">{{ $section.prettyName }}</h1>
       <ul class="mdl-mega-footer__link-list">
         <p>A4P.ch GmbH<br /> Föhrenweg 2<br /> 8483 Kollbrunn<br /> christian.giddey{at}a4p.ch
           <br /> phone: +41 79 644 3221</p>

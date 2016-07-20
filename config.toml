@@ -13,8 +13,17 @@ publishdir = "public"
     # Enter your tracking code to enable Google Analytics
     googleAnalytics = "UA-73219735-1"
     
-    [params.navigation]
-        categories = ['About us', 'Clients & Partners', 'References', 'Contacts']
+    [[params.sections]]
+        prettyName = "About us"
+        
+    [[params.sections]]
+        prettyName = "Clients & Partners"
+    
+    [[params.sections]]
+        prettyName = "References"
+        
+    [[params.sections]]
+        prettyName = "Contacts"
 
     [params.content.partners]
         title = 'Clients & Partners'
